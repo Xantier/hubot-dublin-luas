@@ -5,6 +5,7 @@ add `hubot-dublin-luas` to your `package.json`
 ```
 "hubot-dublin-luas": "~1.0.0"
 ```
+add `lodash` and `xml2json` to your `package.json`
 Add `hubot-dublin-luas` to your `external_scripts.json` and run `npm install`
 
 ### Commands
