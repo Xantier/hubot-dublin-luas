@@ -1,0 +1,32 @@
+{
+  "name": "hubot-dublin-luas",
+  "author" : "Jussi Hallila <Jussi@Hallila.com>",
+  "license" : "MIT",
+  "description": "Hubot script to query next LUAS coming to your stop. Inspired by https://github.com/ncremins/luas-api",
+  "version": "1.0.0",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: Tests? nah. We'll test it in production.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xantier/hubot-dublin-luas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Xantier/hubot-dublin-luas.git/issues"
+  },
+  "homepage": "https://github.com/Xantier/hubot-dublin-luas",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "LUAS",
+    "Dublin",
+    "Tram"
+  ],
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "xml2json": "^0.9.0",
+    "hubot": ">= 2.4.0"
+  }
+}
