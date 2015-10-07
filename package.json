@@ -3,7 +3,7 @@
   "author" : "Jussi Hallila <Jussi@Hallila.com>",
   "license" : "MIT",
   "description": "Hubot script to query next LUAS coming to your stop. Inspired by https://github.com/ncremins/luas-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "main": "index.js",
   "scripts": {

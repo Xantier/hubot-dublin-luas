@@ -62,7 +62,7 @@ module.exports = function (robot) {
             variables.amountOfTrams = 'three';
             res.send(responseString(variables) + _.take(_.map(tram, function (it) {
                   return 'To ' + it.destination + ' in ' + it.dueMins + ' minutes ';
-                })), 3);
+                }), 3));
           }
         } else {
           res.send('Look man, I\'m really sorry. I tried but I wasn\'t able to find any info for you :(');
