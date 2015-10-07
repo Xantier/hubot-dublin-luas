@@ -10,8 +10,9 @@ Add `hubot-dublin-luas` to your `external_scripts.json` and run `npm install`
 ### Commands
 
 ```
-hubot luas stations
-=> [Shortname (Name, Irish Name)] like: BUS (Bus Áras, Busáras), CON (Connolly, Conghaile), etc. etc. 
+hubot luas stations: 
+[Shortname (Name, Irish Name)] 
+=> BUS (Bus Áras, Busáras), CON (Connolly, Conghaile), etc. etc. 
 ```
 
 ```
