@@ -10,10 +10,10 @@
 //
 // Commands:
 //   hubot luas inbound|outbound <station>
-var xml2json = require('xml2json');
-var _ = require('lodash');
 
 module.exports = function (robot) {
+  var xml2json = require('xml2json');
+  var _ = require('lodash');
   var stations = require('./stations.json');
   robot.respond(/luas stations/, function (res) {
     var stationList = _.map(stations, function (station) {
