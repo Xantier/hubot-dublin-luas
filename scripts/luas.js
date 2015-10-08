@@ -20,7 +20,7 @@ module.exports = function (robot) {
     var stationList = _.map(stations, function (station) {
       return ' ' + station.shortName + ' (' + station.displayName + ', ' + station.displayIrishName + ')';
     });
-    res.send(stationList);
+    res.send(stationList.toString());
   });
 
   robot.respond(/luas (inbound|outbound) (\S.*)/i, function (res) {
