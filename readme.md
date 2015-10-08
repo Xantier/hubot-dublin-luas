@@ -3,7 +3,7 @@
 ### Install
 Add `hubot-dublin-luas` to your `package.json`
 ```
-"hubot-dublin-luas": "~1.0.0"
+"hubot-dublin-luas": "~1.1.0"
 ```
 Add `lodash` and `xml2json` to your `package.json`
 
